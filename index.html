@@ -1,0 +1,48 @@
+<html id="cpu">
+	<head>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="indexcpu.css"/>
+    <link rel="icon" href="C:\Users\Ramyaa\Documents\projects\cpu.png" type="image/icon type">
+        <title>CPU Scheduling Algorithms - Project</title>
+		
+		<script src="js/jquery-3.1.0.min.js"></script>
+        <script>
+            $(document).ready(function () {
+               $('#methods').change(function(){ location.href = $(this).val(); });
+            })
+
+
+       </script>
+	</head>
+	<body id="cpu">
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+<script>
+$(window).on('load', function() { 
+  $('#status').fadeOut(); 
+  $('#preloader').delay(350).fadeOut('slow'); 
+  $('body').delay(350).css({'overflow':'visible'});
+})
+</script>
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
+<center><div id="card">
+                <h1 style="font-family: Arial, Helvetica, sans-serif;">CPU Insight</h1>
+                <h2 style="font-family: Arial, Helvetica, sans-serif;">Visualizing CPU Scheduling Efficiency</h2>
+                <!-- add an image -->
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f7ce033a-831a-42af-8ac0-6ae8ae66cc6d/d5mwe2v-a84d7b67-1a16-44a9-b3ba-cad774f0db8a.png" alt="Logo" style="width: 152.6px; height:191.1px;">
+
+                <br>
+                <br>
+                <div>
+                <a href="ShortestJobFirst.html">
+                  
+                  <button  class="button" id="start" style="border-radius: 12px;"</button>START</button>
+                </a>
+                <p style="font-family: Arial, Helvetica, sans-serif;" >Made By: Shashant Bhat & Yash Dhingra </p>
+                </div>
+        </div></body></center>
+	</body>
+</html>
